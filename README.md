@@ -1,0 +1,2 @@
+# would-you-rather-game
+This is the final assessment project for the Udacity's React &amp; Redux course course, part of the React Nanodegree Program in collaboration with FWD initiative powered by ITIDA.  Would You Rather is a game where participants ask would you rather questions and participants answers them. A Learderboard tracks the Questions and Answers of each participant.  The game is Cat Themed for fun, inspired by twitter.
