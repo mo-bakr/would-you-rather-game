@@ -1,0 +1,256 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(27, 27, 27);
+  font-weight: bolder;
+}
+
+
+.navigation {
+  background-color: crimson;
+  color: whitesmoke;
+  height: 70px;
+}
+
+.navigation > ul {
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  gap: 30px;
+  align-items: center;
+}
+
+
+
+.navigation > ul > li > a  {
+  
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: whitesmoke;
+  text-decoration: none;
+  background-color: black;
+  transition: 0.3s;
+}
+
+.navigation > ul > li :hover{
+  color: black;
+  background-color: whitesmoke;
+  transition: 0.3s;
+}
+
+.navigation > ul > li:nth-child(4){
+  padding-left: 45%;
+}
+
+
+
+.frame {
+  margin: 0 auto;
+  padding: 0;
+  
+}
+
+
+.options{
+  display: inline-block;
+}
+
+.optionButton{
+  margin-right: 10px;
+  height:20px; width:20px;
+  vertical-align: sub;
+}
+
+.pollList > button {
+  color: whitesmoke;
+  background-color: crimson;
+  border: solid 1px whitesmoke;
+  width: 50%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.pollList > ul{
+  padding-left: 0;
+}
+
+.pollList > button.focus {
+  background-color: rgb(150, 14, 41);
+  border: solid 1px black;
+}
+
+
+.poll {
+  color: whitesmoke;
+  margin-bottom: 20px;
+}
+
+
+.meowerpoll {
+  background-color: crimson;
+  color: whitesmoke;
+  padding: 20px;
+  margin: 0;
+  font-size: large;
+}
+
+.bT{
+  font-size: x-large;
+  text-align: center;
+}
+
+.poll .pollBox {
+  background-color: rgba(220, 20, 60, 0.200);
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+}
+.poll .pollBox img {
+  width: 25%;
+  height: 25%;
+  padding-right: 40px;
+  margin: auto 0;
+}
+.poll .pollBox .pollOption, .createPoll {
+  border-left: 4px crimson solid;
+  padding-left: 40px;
+  width: 100%;
+}
+.poll .pollBox .pollOption a {
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: crimson;
+  color: whitesmoke;
+  padding: 10px;
+}
+
+.poll .pollBox .pollResult {
+  border: 1px crimson solid;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+  margin: 40px;
+}
+.poll .pollBox .pollResult.true {
+  background-color: crimson;
+}
+
+.poll .pollBox .pollResult.true:after {
+  background-color: crimson;
+  border: 1px whitesmoke solid;
+  border-radius: 10px;
+  content: 'your meow';
+  position: absolute;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  line-height: 14px;
+  top: -20px;
+  right: -20px;
+  height: 40px;
+  width: 40px;
+}
+
+textarea {
+  display: block;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.submit {
+  background-color: crimson;
+  color: whitesmoke;
+  font-size: large;
+  padding: 10px;
+  border:none;
+  border-radius: 10px;
+}
+
+.meowerMeowInData{
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+.frame > ul{
+    list-style-type: none;
+  list-style-position: inside;
+  padding-left: 0;
+  
+}
+
+.meowerpoll{
+  margin-top: 20px;
+}
+
+.meowerMeowInData > li {
+  background-color: rgba(220, 20, 60, 0.200);
+  border-radius: 4px;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  margin-bottom: 16px;
+  font-size: large;
+
+}
+.meowerMeowInData > li > img {
+  margin-right: 10px;
+  height: 10%;
+  width: 10%;
+  border-right: 4px crimson solid;
+  padding-right: 10px;
+  
+}
+.meowerMeowInData > li > p {
+  margin-right: 10px;
+  
+}
+.meowerMeowInData > li > button {
+  font-size: large;
+  background-color: crimson;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  outline: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  
+}
+
+.MeowInMessage, .notfoundMessage, .Mnotfound, .oops{
+  color: whitesmoke;
+  font-size: x-large;
+  margin: 10px;
+  text-align: center;
+}
+
+.NoMeowsMessage{
+  color: whitesmoke;
+  font-size: x-large;
+  margin: 10px;
+}
+
+.LP{
+  padding-top: 15px;
+  color: whitesmoke;
+  font-size: x-large;
+  margin: 10px;
+}
+
+.cat404{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  align-self: center;
+  border-radius: 100px;
+}
