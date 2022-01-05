@@ -13,7 +13,7 @@ Instructions to setup the app on your local machine.
 
 ### Prerequisites
 
-You can use npm the app.
+You can use npm the to run app.
 
 * If you have node.js installed you absolutely have npm installed with it.
 
