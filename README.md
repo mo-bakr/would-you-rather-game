@@ -25,7 +25,6 @@ npm
 ```
 npm install
 npm start
-
 ```
 
 ## Technology
